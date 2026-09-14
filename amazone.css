@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e2e7e6;
+}
+/* navbar */
+
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navLogo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+/* box1 */
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border-color: white;
+}
+
+/* box2 */
+
+.adressIcon{
+   height: 15px;
+   width: 18px;
+   color: white;
+   display: flex;
+   align-items: center;
+}
+
+.deliverTo{
+    font-size: 0.85rem ;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.india{
+    font-size: 1rem;
+    color: white;
+    margin-left: 3px;
+}
+
+/* box3 */
+
+.navSearch{
+    display: flex;
+    width: 750px;
+    height: 40px;
+}
+
+.dropdown{
+    background-color: #f3f3f3;
+    color: #7f7c7c;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    font-size: small;
+}
+
+.search{
+     width:100%;
+    font-size:medium;
+    border: none;
+}
+.navSearch:hover{
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.searchicon{
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 183, 15);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+
+/* box4 */
+.navLang{
+   height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+/* box5 */
+
+.navAcc{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.accHello{
+    font-size: 0.75rem;
+}
+
+.accName{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* box6 */
+
+.navReturn{
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.accReturn{
+    font-size: 0.75rem;
+}
+
+.accOrder{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* box7*/
+
+.navCart{
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    font-size: large;
+}
+
+
+/* panel */
+
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.pantags{
+    color: white;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+.panDeals{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.panChoice{
+    margin-left: 15px;
+}
+
+/* herosection */
+.heroSection{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.heroMsg{
+    background-color: white;
+    color:#222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 0.85rem;
+    width : 95%;
+    margin-bottom: 25px;
+}
+
+/* shopSection */
+
+.shopSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.box{
+    width: 22%;
+    height: 420px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.content{
+    padding: 20px 0px 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.boxImg{
+    
+    background-size:cover;
+    height: 325px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.see{
+    color: rgb(99, 181, 208);
+}
+.see:hover{
+    color: orange;
+    text-decoration: solid orange underline;
+}
